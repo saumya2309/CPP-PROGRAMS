@@ -1,5 +1,9 @@
 # CPP-PROGRAMS
-# 1.
+#  QUESTION 1. Write a C++ program that: Declares one global variable
+# Declares one local variable inside main()
+ # Dynamically allocates one integer using new
+# Print the addresses of all three and identify which memory region each belongs to.
+
 #include <iostream>
 using namespace std;
 
@@ -33,7 +37,7 @@ output:
 <img width="522" height="336" alt="Screenshot 2026-01-21 095814" src="https://github.com/user-attachments/assets/a3324f60-46a6-46d6-9bec-0103fc1274e9" />
 
 
-#2.
+# 2.
 #include <iostream>
 using namespace std;
 
@@ -65,7 +69,7 @@ int main() {
 OUTPUT:
 <img width="438" height="457" alt="Screenshot 2026-01-21 100247" src="https://github.com/user-attachments/assets/c36d1d2f-ea70-4659-b026-ee4a7be2cba6" />
 
-#3.
+# 3.
 #include <iostream>
 using namespace std;
 
@@ -90,7 +94,7 @@ OUTPUT:
 
 <img width="472" height="283" alt="Screenshot 2026-01-21 100345" src="https://github.com/user-attachments/assets/2097c5f0-a05e-42a7-afb5-e24305426202" />
 
- #4.
+ # 4.
  #include <iostream>
 using namespace std;
 
