@@ -7,14 +7,14 @@
 #include <iostream>
 using namespace std;
 
-// 1. Global variable (stored in the global/static data segment)
+ // Global variable (stored in the global/static data segment)
 int globalVar = 10;
 
 int main() {
-    // 2. Local variable inside main() (stored on the stack)
+      Local variable inside main() (stored on the stack)
     int localVar = 20;
 
-    // 3. Dynamically allocated integer (stored on the heap)
+    //  Dynamically allocated integer (stored on the heap)
     int* heapVar = new int(30);
 
     // Printing addresses
