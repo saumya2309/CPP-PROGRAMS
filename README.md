@@ -396,6 +396,32 @@ int main() {
 
 ---
 # ques. 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int r, c;
+    int matrix[10][10];
+
+    cout << "Enter number of rows and columns: ";
+    cin >> r >> c;
+
+    cout << "Enter matrix elements:\n";
+    for (int i = 0; i < r; i++)
+        for (int j = 0; j < c; j++)
+            cin >> matrix[i][j];
+
+    cout << "Matrix elements in row-wise order:\n";
+    for (int i = 0; i < r; i++) {
+        for (int j = 0; j < c; j++)
+            cout << matrix[i][j] << " ";
+        cout << endl;
+    }
+
+    return 0;
+}
+<img width="514" height="434" alt="image" src="https://github.com/user-attachments/assets/59fab06b-5190-4d4e-9ba4-cbb262fa7073" />
+
 
 
 
