@@ -257,6 +257,166 @@ OUTPUT:
 
 <img width="708" height="483" alt="Screenshot 2026-01-21 102805" src="https://github.com/user-attachments/assets/648cc390-f785-436d-84ce-488608bb8d24" />
 
+# Ques
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    int arr[100];
+
+    cout << "Enter the number of elements: ";
+    cin >> n;
+
+    cout << "Enter " << n << " elements:\n";
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+
+    cout << "Array elements are:\n";
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+
+    return 0;
+}
+
+# output. 
+<img width="524" height="292" alt="image" src="https://github.com/user-attachments/assets/8608083a-401e-4b78-8407-0bfbc4fb4809" />
+
+# QUES. Write a c++ program to find the sum of all elements in an array
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, sum = 0;
+    int arr[100];
+
+    cout << "Enter the number of elements: ";
+    cin >> n;
+
+    cout << "Enter " << n << " elements:\n";
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+        sum += arr[i];   // add each element to sum
+    }
+
+    cout << "Sum of array elements = " << sum << endl;
+
+    return 0;
+}
+
+# output
+<img width="465" height="273" alt="image" src="https://github.com/user-attachments/assets/7263adf8-d508-4912-bf75-cbfa677d8b98" />
+
+# Ques. write a c++ program  to copy one array into another
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, a[50], b[50];
+
+    cout << "Enter number of elements: ";
+    cin >> n;
+
+    cout << "Enter elements:\n";
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
+
+    // Copy array
+    for (int i = 0; i < n; i++)
+        b[i] = a[i];
+
+    cout << "Copied array:\n";
+    for (int i = 0; i < n; i++)
+        cout << b[i] << " ";
+
+    return 0;
+}
+
+# output
+<img width="441" height="338" alt="image" src="https://github.com/user-attachments/assets/4b5b5114-8055-4699-9b2e-ad4a3cd91dd5" />
+
+# Ques. write a c++ program to print array elements at even index
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, a[50];
+
+    cout << "Enter number of elements: ";
+    cin >> n;
+
+    cout << "Enter elements:\n";
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
+
+    cout << "Elements at even index:\n";
+    for (int i = 0; i < n; i += 2)
+        cout << a[i] << " ";
+
+    return 0;
+}
+
+# Output
+<img width="610" height="380" alt="image" src="https://github.com/user-attachments/assets/7912c861-bf1a-43db-a95a-0435793b01b6" />
+
+# Ques write a c++ program to read and display a 2D array (matrix)
+#include <iostream>
+using namespace std;
+
+int main() {
+    int r, c;
+    int a[10][10];
+
+    cout << "Enter number of rows and columns: ";
+    cin >> r >> c;
+
+    cout << "Enter matrix elements:\n";
+    for (int i = 0; i < r; i++) {
+        for (int j = 0; j < c; j++) {
+            cin >> a[i][j];
+        }
+    }
+
+    cout << "Matrix is:\n";
+    for (int i = 0; i < r; i++) {
+        for (int j = 0; j < c; j++) {
+            cout << a[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+
+#  Output
+<img width="393" height="285" alt="image" src="https://github.com/user-attachments/assets/70047ec4-cb94-4466-97aa-f25711ac5b67" />
+
+---
+
+## 📄 src/read_display_array.cpp
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, a[50];
+    cout << "Enter number of elements: ";
+    cin >> n;
+    cout << "Enter elements:\n";
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
+    cout << "Array elements are:\n";
+    for (int i = 0; i < n; i++)
+        cout << a[i] << " ";
+    return 0;
+}
+
+
+
 
 
 
