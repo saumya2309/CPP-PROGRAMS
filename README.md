@@ -395,26 +395,7 @@ int main() {
 <img width="393" height="285" alt="image" src="https://github.com/user-attachments/assets/70047ec4-cb94-4466-97aa-f25711ac5b67" />
 
 ---
-
-## 📄 src/read_display_array.cpp
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-    int n, a[50];
-    cout << "Enter number of elements: ";
-    cin >> n;
-    cout << "Enter elements:\n";
-    for (int i = 0; i < n; i++)
-        cin >> a[i];
-    cout << "Array elements are:\n";
-    for (int i = 0; i < n; i++)
-        cout << a[i] << " ";
-    return 0;
-}
-
+# ques. 
 
 
 
