@@ -40,7 +40,7 @@ output:
 <img width="522" height="336" alt="Screenshot 2026-01-21 095814" src="https://github.com/user-attachments/assets/a3324f60-46a6-46d6-9bec-0103fc1274e9" />
 
 
-# 2.
+### 2.
 
 ```c
 #include <iostream>
@@ -74,7 +74,7 @@ int main() {
 OUTPUT:
 <img width="438" height="457" alt="Screenshot 2026-01-21 100247" src="https://github.com/user-attachments/assets/c36d1d2f-ea70-4659-b026-ee4a7be2cba6" />
 
-# 3.
+### 3.
 ```c
 #include <iostream>
 using namespace std;
@@ -101,7 +101,7 @@ OUTPUT:
 
 <img width="472" height="283" alt="Screenshot 2026-01-21 100345" src="https://github.com/user-attachments/assets/2097c5f0-a05e-42a7-afb5-e24305426202" />
 
- # 4.
+ ### 4.
 
  ```c
  #include <iostream>
@@ -118,7 +118,7 @@ int main() {
 
 <img width="393" height="242" alt="Screenshot 2026-01-21 100858" src="https://github.com/user-attachments/assets/2e3606c2-25c8-4f27-8c10-6ac958509867" />
 
-# 5. 
+### 5. 
 ```c
 #include <iostream>
 using namespace std;
@@ -140,7 +140,7 @@ output:
 
 <img width="425" height="245" alt="Screenshot 2026-01-21 101132" src="https://github.com/user-attachments/assets/5599c4e2-45c8-4343-8a5b-8163c692d282" />
 
-# 6.
+### 6.
 ``` c
 #include <iostream>
 using namespace std;
@@ -162,7 +162,7 @@ OUTPUT:
 <img width="427" height="171" alt="Screenshot 2026-01-21 101632" src="https://github.com/user-attachments/assets/0a4d6806-d00e-4567-8b03-67934bf371ec" />
 
 
-# 7. 
+### 7. 
 ```c
 #include <iostream>
 using namespace std;
@@ -182,7 +182,7 @@ OUTPUT:
 
 <img width="407" height="281" alt="Screenshot 2026-01-21 101947" src="https://github.com/user-attachments/assets/a3f54fc3-4a69-4c1e-8292-4491b8629b4f" />
 
-# 8 . 
+### 8 . 
 ```c
 #include <iostream>
 using namespace std;
@@ -219,7 +219,7 @@ OUTPUT:
 
 <img width="401" height="349" alt="Screenshot 2026-01-21 102115" src="https://github.com/user-attachments/assets/9d67a401-4182-4be3-90da-5cc217267764" />
 
-# 9. 
+### 9. 
 ```c
 #include <iostream>
 using namespace std;
@@ -244,7 +244,7 @@ int main() {
     return 0;
 }
 ```
-OUTPUT:
+## OUTPUT:
 
 <img width="608" height="401" alt="Screenshot 2026-01-21 102401" src="https://github.com/user-attachments/assets/2feb8866-d001-4d2c-a681-56aba2e64593" />
 
@@ -275,7 +275,7 @@ OUTPUT:
 
 <img width="708" height="483" alt="Screenshot 2026-01-21 102805" src="https://github.com/user-attachments/assets/648cc390-f785-436d-84ce-488608bb8d24" />
 
-# Ques
+### Ques
 ```
 #include <iostream>
 using namespace std;
@@ -300,10 +300,10 @@ int main() {
     return 0;
 }
 ```
-# output. 
+## output. 
 <img width="524" height="292" alt="image" src="https://github.com/user-attachments/assets/8608083a-401e-4b78-8407-0bfbc4fb4809" />
 
-# QUES. Write a c++ program to find the sum of all elements in an array
+### QUES. Write a c++ program to find the sum of all elements in an array
 ```c
 #include <iostream>
 using namespace std;
@@ -326,10 +326,10 @@ int main() {
     return 0;
 }
 ```
-# output
+## output
 <img width="465" height="273" alt="image" src="https://github.com/user-attachments/assets/7263adf8-d508-4912-bf75-cbfa677d8b98" />
 
-# Ques. write a c++ program  to copy one array into another
+### Ques. write a c++ program  to copy one array into another
 ```c
 #include <iostream>
 using namespace std;
@@ -358,7 +358,7 @@ int main() {
 # output
 <img width="441" height="338" alt="image" src="https://github.com/user-attachments/assets/4b5b5114-8055-4699-9b2e-ad4a3cd91dd5" />
 
-# Ques. write a c++ program to print array elements at even index
+### Ques. write a c++ program to print array elements at even index
 ```c
 #include <iostream>
 using namespace std;
@@ -380,10 +380,10 @@ int main() {
     return 0;
 }
 ```
-# Output
+## Output
 <img width="610" height="380" alt="image" src="https://github.com/user-attachments/assets/7912c861-bf1a-43db-a95a-0435793b01b6" />
 
-# Ques write a c++ program to read and display a 2D array (matrix)
+### Ques write a c++ program to read and display a 2D array (matrix)
 
 ```c
 #include <iostream>
@@ -415,11 +415,11 @@ int main() {
 }
 ```
 
-#  Output
+# # Output
 <img width="393" height="285" alt="image" src="https://github.com/user-attachments/assets/70047ec4-cb94-4466-97aa-f25711ac5b67" />
 
 ---
-# ques. 
+### ques. 
 ```c
 #include <iostream>
 using namespace std;
