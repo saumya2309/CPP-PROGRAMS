@@ -1,8 +1,8 @@
 # CPP-PROGRAMS
-## QUESTION 1. Write a C++ program that: Declares one global variable
-##  Declares one local variable inside main()
-## Dynamically allocates one integer using new
-## Print the addresses of all three and identify which memory region each belongs to.
+### QUESTION 1. Write a C++ program that: Declares one global variable
+###  Declares one local variable inside main()
+### Dynamically allocates one integer using new
+### Print the addresses of all three and identify which memory region each belongs to.
 
 ###
 ``` c
@@ -447,6 +447,138 @@ int main() {
 }
 ```
 <img width="514" height="434" alt="image" src="https://github.com/user-attachments/assets/59fab06b-5190-4d4e-9ba4-cbb262fa7073" />
+
+### ques :create a structur STUDENT  with:
+###roll n umber
+###name
+###marks
+### input details of 5 students and display students who scored more than  75 marks.
+
+```c#include <stdio.h>
+
+struct STUDENT {
+    int roll;
+    char name[50];
+    float marks;
+};
+
+int main() {
+    struct STUDENT s[5];
+    int i;
+
+    for(i = 0; i < 5; i++) {
+        printf("Enter roll, name, marks: ");
+        scanf("%d %s %f", &s[i].roll, s[i].name, &s[i].marks);
+    }
+
+    printf("\nStudents scoring more than 74:\n");
+    for(i = 0; i < 5; i++) {
+        if(s[i].marks > 74)
+            printf("%d %s %.2f\n", s[i].roll, s[i].name, s[i].marks);
+    }
+
+    return 0;
+}
+```
+
+<img width="505" height="482" alt="image" src="https://github.com/user-attachments/assets/7a343c78-0e5d-46ad-85db-7af27044a677" />
+
+### ques: 
+
+```c
+#include <stdio.h>
+
+struct Employee {
+    int id;
+    char name[50];
+    float basic;
+};
+
+// Function to calculate gross salary
+float grossSalary(float basic) {
+    return basic + 0.2*basic + 0.1*basic; // basic + 20% HRA + 10% DA
+}
+
+int main() {
+    int n;
+    printf("Enter number of employees: ");
+    scanf("%d", &n);
+
+    struct Employee emp[n];
+
+    // Input employee details
+    for (int i = 0; i < n; i++) {
+        printf("\nEmployee %d ID: ", i+1);
+        scanf("%d", &emp[i].id);
+
+        printf("Employee %d Name: ", i+1);
+        scanf(" %[^\n]s", emp[i].name); // read full name with spaces
+
+        printf("Employee %d Basic Salary: ", i+1);
+        scanf("%f", &emp[i].basic);
+    }
+
+    // Display details and gross salary
+    printf("\n--- Employee Details ---\n");
+    for (int i = 0; i < n; i++) {
+        printf("\nID: %d\nName: %s\nBasic: %.2f\nGross Salary: %.2f\n", 
+                emp[i].id, emp[i].name, emp[i].basic, grossSalary(emp[i].basic));
+    }
+
+    return 0;
+}
+```
+<img width="538" height="408" alt="image" src="https://github.com/user-attachments/assets/c4077a2a-aa51-4872-a80d-cf62c0372953" />
+
+
+### ques: 
+```c
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Initialize an array
+    int arr[] = {10, 20, 30, 40};
+    
+    // Pointer to the first element of the array
+    int *p = arr;
+
+    // Print values using the pointer
+    cout << "*p = " << *p << endl;        // Points to arr[0]
+    cout << "*(p+1) = " << *(p+1) << endl; // Points to arr[1]
+    cout << "*(p+3) = " << *(p+3) << endl; // Points to arr[3]
+
+    return 0;
+}
+```
+<img width="469" height="475" alt="image" src="https://github.com/user-attachments/assets/433f9797-4a53-4e73-acb0-49ee8f9f1931" />
+
+### ques
+```c
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Initialize array
+    int arr[] = {5, 10, 15, 20};
+    
+    // Pointer to the 3rd element of the array (arr[2])
+    int *p = arr + 2;
+
+    // Print values using the pointer
+    cout << "*p = " << *p << endl;        // Points to arr[2]
+    cout << "*(p-1) = " << *(p-1) << endl; // Points to arr[1]
+
+    return 0;
+}
+```
+
+<img width="411" height="233" alt="image" src="https://github.com/user-attachments/assets/d1c8718b-fa5d-4dfe-8fef-fd0bef341a11" />
+
+
+
+
+
 
 
 
