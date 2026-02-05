@@ -448,13 +448,12 @@ int main() {
 ```
 <img width="514" height="434" alt="image" src="https://github.com/user-attachments/assets/59fab06b-5190-4d4e-9ba4-cbb262fa7073" />
 
-### ques :create a structur STUDENT  with:
-###roll n umber
-###name
-###marks
+### ques :create a structure STUDENT  with:
+
 ### input details of 5 students and display students who scored more than  75 marks.
 
-```c#include <stdio.h>
+```c
+#include <stdio.h>
 
 struct STUDENT {
     int roll;
@@ -483,7 +482,8 @@ int main() {
 
 <img width="505" height="482" alt="image" src="https://github.com/user-attachments/assets/7a343c78-0e5d-46ad-85db-7af27044a677" />
 
-### ques: 
+### ques: Define a structure Employee containing:
+### employee ID ,name , basic salary
 
 ```c
 #include <stdio.h>
@@ -531,7 +531,11 @@ int main() {
 <img width="538" height="408" alt="image" src="https://github.com/user-attachments/assets/c4077a2a-aa51-4872-a80d-cf62c0372953" />
 
 
-### ques: 
+#### ques: int arr[] = {10, 20, 30, 40};
+#### int *p = arr;
+#### cout << *p << endl;
+#### cout << *(p + 1) << endl;
+#### cout << *(p + 3) << endl;
 ```c
 #include <iostream>
 using namespace std;
@@ -553,7 +557,10 @@ int main() {
 ```
 <img width="469" height="475" alt="image" src="https://github.com/user-attachments/assets/433f9797-4a53-4e73-acb0-49ee8f9f1931" />
 
-### ques
+#### ques: int arr[] = {5, 10, 15, 20};
+#### int *p = arr + 2;
+#### cout << *p << endl;
+#### cout << *(p - 1) << endl;
 ```c
 #include <iostream>
 using namespace std;
@@ -574,6 +581,276 @@ int main() {
 ```
 
 <img width="411" height="233" alt="image" src="https://github.com/user-attachments/assets/d1c8718b-fa5d-4dfe-8fef-fd0bef341a11" />
+
+```
+
+```
+#### Ques:int arr[5] = {1, 2, 3, 4, 5};
+
+#### for(int i = 0; i < 5; i++)
+ ####   cout << *(arr + i) << " "; , 
+ ```c
+int arr[5] = {1, 2, 3, 4, 5};
+
+for(int i = 0; i < 5; i++)
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[5] = {1, 2, 3, 4, 5};
+
+    for(int i = 0; i < 5; i++)
+        cout << *(arr + i) << " ";
+
+    return 0;
+}
+```
+<img width="529" height="272" alt="Screenshot 2026-02-05 185735" src="https://github.com/user-attachments/assets/cc9e0842-5576-495a-9590-346ce92cf7b2" />
+
+```
+```
+#### Ques: int arr[] = {2, 4, 6, 8};
+#### int *p = arr;
+#### p++;
+#### cout << *p << endl;
+
+```c
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {2, 4, 6, 8};
+    int *p = arr;
+
+    p++;              // move pointer to next element
+    cout << *p << endl;
+
+    return 0;
+}
+```
+
+<img width="718" height="278" alt="image" src="https://github.com/user-attachments/assets/d46af6f2-318c-4d7f-9819-8ad2ba6f966c" />
+
+
+#### Ques:int arr[] = {7, 14, 21};
+
+#### cout << arr[1] << endl;
+#### cout << 1[arr] << endl;
+
+```c
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {7, 14, 21};
+
+    cout << arr[1] << endl;
+    cout << 1[arr] << endl;
+
+    return 0;
+}
+
+
+```
+
+<img width="680" height="339" alt="image" src="https://github.com/user-attachments/assets/dc18c358-3333-4b91-b474-77e007f8e59c" />
+
+
+```
+```
+#### Ques: int arr[] = {10, 20, 30};
+#### int *p = arr;
+#### cout << *p + 1 << endl;
+#### cout << *(p + 1) << endl;
+
+```c
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {10, 20, 30};
+    int *p = arr;
+
+    cout << *p + 1 << endl;
+    cout << *(p + 1) << endl;
+
+    return 0;
+}
+
+```
+
+<img width="812" height="327" alt="Screenshot 2026-02-05 190715" src="https://github.com/user-attachments/assets/7095af0d-0702-44c9-ab2a-f8f588b883ca" />
+
+```
+```
+#### Ques: int arr[] = {3, 6, 9, 12};
+#### int *p = arr;
+#### while(p <= &arr[3]) {
+####    cout << *p << " ";
+####    p++;
+#### }
+```c
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {3, 6, 9, 12};
+    int *p = arr;
+
+    while(p <= &arr[3]) {
+        cout << *p << " ";
+        p++;
+    }
+
+    return 0;
+}
+```
+
+<img width="489" height="212" alt="image" src="https://github.com/user-attachments/assets/7eaccf9b-b794-431a-9a43-bb0dcae8e92d" />
+```
+```
+#### Ques:int arr[] = {1, 2, 3};
+#### int *p = arr;
+
+#### for(int i = 0; i < 3; i++)
+####    cout << *(p++) << " ";
+
+```c
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {1, 2, 3};
+    int *p = arr;
+
+    for(int i = 0; i < 3; i++)
+        cout << *(p++) << " ";
+
+    return 0;
+}
+```
+
+<img width="450" height="149" alt="image" src="https://github.com/user-attachments/assets/4888835b-e009-4e2b-b5b7-f430cf3ee4cc" />
+
+```
+```
+#### Ques:int arr[] = {10, 20, 30};
+#### int *p = arr;
+
+#### cout << p << endl;
+#### cout << p + 1 << endl;
+
+```c
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {10, 20, 30};
+    int *p = arr;
+
+    cout << p << endl;
+    cout << p + 1 << endl;
+
+    return 0;
+}
+```
+
+<img width="453" height="144" alt="image" src="https://github.com/user-attachments/assets/d1e54910-9bef-4219-a27c-cc59dd393101" />
+```
+```
+#### Ques: char arr[] = {'A', 'B', 'C'};
+#### char *p = arr;
+
+#### cout << p << endl;
+#### cout << p + 1 << endl;
+
+```c
+#include <iostream>
+using namespace std;
+
+int main() {
+    char arr[] = {'A', 'B', 'C'};
+    char *p = arr;
+
+    cout << p << endl;
+    cout << p + 1 << endl;
+
+    return 0;
+}
+```
+
+
+<img width="455" height="140" alt="image" src="https://github.com/user-attachments/assets/c120d185-9d33-4f4c-ad21-0cf9d1fdbe1b" />
+
+```
+```
+#### Ques:struct Data {
+####    int x;
+####    int y;
+#### };
+
+#### Data arr[] = {{1,2}, {3,4}, {5,6}};
+#### Data *p = arr;
+
+#### cout << p->x << endl;
+#### cout << (p + 1)->y << endl;
+```c
+#include <iostream>
+using namespace std;
+
+struct Data {
+    int x;
+    int y;
+};
+
+int main() {
+    Data arr[] = {{1,2}, {3,4}, {5,6}};
+    Data *p = arr;
+
+    cout << p->x << endl;
+    cout << (p + 1)->y << endl;
+
+    return 0;
+}
+```
+
+<img width="471" height="203" alt="image" src="https://github.com/user-attachments/assets/c3ecaf3c-28e7-4fde-9ec4-06eeda3ad317" />
+```
+```
+#### Ques: struct Item {
+####    int price;
+##### };
+
+#### Item arr[] = {100, 200, 300};
+#### Item *p = arr;
+
+#### cout << p[2].price << endl;
+#### cout << (*(p + 1)).price << endl;
+```c
+#include <iostream>
+using namespace std;
+
+struct Item {
+    int price;
+};
+
+int main() {
+    Item arr[] = {100, 200, 300};
+    Item *p = arr;
+
+    cout << p[2].price << endl;
+    cout << (*(p + 1)).price << endl;
+
+    return 0;
+}
+
+<img width="617" height="215" alt="image" src="https://github.com/user-attachments/assets/3683d98f-c2db-4188-aa29-8ea1955dacca" />
+```
+```
+
+
+
+
 
 
 
