@@ -633,7 +633,6 @@ int main() {
 
 
 #### Ques:int arr[] = {7, 14, 21};
-
 #### cout << arr[1] << endl;
 #### cout << 1[arr] << endl;
 
@@ -736,7 +735,6 @@ int main() {
 ```
 #### Ques:int arr[] = {10, 20, 30};
 #### int *p = arr;
-
 #### cout << p << endl;
 #### cout << p + 1 << endl;
 
@@ -760,7 +758,6 @@ int main() {
 ```
 #### Ques: char arr[] = {'A', 'B', 'C'};
 #### char *p = arr;
-
 #### cout << p << endl;
 #### cout << p + 1 << endl;
 
@@ -788,10 +785,8 @@ int main() {
 ####    int x;
 ####    int y;
 #### };
-
 #### Data arr[] = {{1,2}, {3,4}, {5,6}};
 #### Data *p = arr;
-
 #### cout << p->x << endl;
 #### cout << (p + 1)->y << endl;
 ```c
