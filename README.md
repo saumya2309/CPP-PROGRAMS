@@ -756,6 +756,9 @@ int main() {
 <img width="453" height="144" alt="image" src="https://github.com/user-attachments/assets/d1e54910-9bef-4219-a27c-cc59dd393101" />
 ```
 ```
+
+
+
 #### Ques: char arr[] = {'A', 'B', 'C'};
 #### char *p = arr;
 #### cout << p << endl;
