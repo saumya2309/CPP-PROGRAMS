@@ -812,6 +812,9 @@ int main() {
 <img width="471" height="203" alt="image" src="https://github.com/user-attachments/assets/c3ecaf3c-28e7-4fde-9ec4-06eeda3ad317" />
 ```
 ```
+
+
+
 #### Ques: struct Item {
 ####    int price;
 ##### };
